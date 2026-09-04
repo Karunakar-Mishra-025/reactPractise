@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(45, 46, 61);
+}
+div{
+  background-color: rgb(101, 102, 108);
+}
+h1{
+  background-color: rgb(164, 164, 165);
+  padding: 20px 120px;
+  width: fit-content;
+  border-radius: 20px;
+  font-size: 12rem;
+  margin:10px;
+}
+button{
+  background-color: rgb(164, 164, 165);
+  margin:10px;
+  border-radius: 20px;
+  padding: 20px 40px;
+  font-size: 2rem;
+}

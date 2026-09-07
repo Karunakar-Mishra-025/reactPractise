@@ -4,6 +4,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Men from './pages/Men'
+import Courses from './pages/Courses'
+import CourseDetails from './pages/CourseDetails'
 import Women from './pages/Women'
 import Kid from './pages/Kid'
 import Products from './pages/Products'
@@ -19,6 +21,8 @@ const App = () => {
         <Route path='/' element={<Home />}/>
         <Route path='/about' element={<About />}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/courses' element={<Courses/>}/>
+        <Route path='/course-details/:courseName' element={<CourseDetails />} />
         <Route path='/product' element={<Products/>}>
           <Route path='men' element={<Men/>}> </Route>
           <Route path='women' element={<Women/>}> </Route>
